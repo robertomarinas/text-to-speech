@@ -1,0 +1,19 @@
+{
+  "name": "text-to-speech",
+  "version": "1.0.0",
+  "description": "A simple text to speech synthesizer",
+  "main": "scripts.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Roberto Martin B. Marinas",
+  "license": "ISC",
+  "homepage": "https://robertomarinas.github.io/text-to-speech",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
